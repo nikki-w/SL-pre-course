@@ -7,7 +7,7 @@ def guess():
 
 # Start game
 def number_game():
-    print('Welcome to the guessing game. Guess the correct number and you win!')
+    print('Welcome to the guessing game. Guess the correct number (between 1 and 100) and you win!')
     # Define random secret number:
     # Use random to generate a random number in the range 1 to 100
     secret_number = random.randrange(1, 100)
